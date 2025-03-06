@@ -15,7 +15,7 @@ function App() {
   // Initialize audio safely
   useEffect(() => {
     // Use public URL path directly
-    audioRef.current = new Audio('/birthday/happybirthday.mp3');
+    audioRef.current = new Audio('/happybirthday.mp3');
     
     // Cleanup function
     return () => {
@@ -80,19 +80,19 @@ function App() {
   // Photo gallery data
   const photos = [
     {
-      url: '/birthday/1.jpg',
+      url: '/1.jpg',
       caption: 'Our first trip together, 2020 🌟'
     },
     {
-      url: '/birthday/2.jpg',
+      url: '/2.jpg',
       caption: 'Remember that sunset picnic? Magical! ✨'
     },
     {
-      url: '/birthday/3.jpg',
+      url: '/3.jpg',
       caption: 'Beach day shenanigans 🏖️'
     },
     {
-      url: '/birthday/9.jpg',
+      url: '/9.jpg',
       caption: 'That time we got lost and found the best coffee shop ever ☕'
     },
     {
@@ -100,11 +100,11 @@ function App() {
       caption: 'Concert night! Your favorite band 🎵'
     },
     {
-      url: '/birthday/10.jpg',
+      url: '/10.jpg',
       caption: 'such a warm/kind look in your eyes 😊'
     },
     {
-      url: '/birthday/4.jpg',
+      url: '/4.jpg',
       caption: 'Remember this hike? Worth every step! 🏔️'
     }
   ];
