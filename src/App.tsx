@@ -80,31 +80,31 @@ function App() {
   // Photo gallery data
   const photos = [
     {
-      url: '1.jpg',
+      url: '/birthday/1.jpg',
       caption: 'Our first trip together, 2020 🌟'
     },
     {
-      url: '2.jpg',
+      url: '/birthday/2.jpg',
       caption: 'Remember that sunset picnic? Magical! ✨'
     },
     {
-      url: '3.jpg',
+      url: '/birthday/3.jpg',
       caption: 'Beach day shenanigans 🏖️'
     },
     {
-      url: '9.jpg',
+      url: '/birthday/9.jpg',
       caption: 'That time we got lost and found the best coffee shop ever ☕'
     },
     {
-      url: '5.jpg',
+      url: '/birthday/5.jpg',
       caption: 'Concert night! Your favorite band 🎵'
     },
     {
-      url: '10.jpg',
+      url: '/birthday/10.jpg',
       caption: 'such a warm/kind look in your eyes 😊'
     },
     {
-      url: '4.jpg',
+      url: '/birthday/4.jpg',
       caption: 'Remember this hike? Worth every step! 🏔️'
     }
   ];
