@@ -15,7 +15,7 @@ function App() {
   // Initialize audio safely
   useEffect(() => {
     // Use public URL path directly
-    audioRef.current = new Audio('/happybirthday.mp3');
+    audioRef.current = new Audio('/birthday/happybirthday.mp3');
     
     // Cleanup function
     return () => {
